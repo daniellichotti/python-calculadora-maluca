@@ -11,3 +11,6 @@ class NumpyHandler(DriverHandlerInterface):
   
   def variance(self, numbers: List[float]) -> float:
     return self.__np.var(numbers)
+
+  def median(self, numbers: List[float]) -> float:
+    return self.__np.median(numbers)

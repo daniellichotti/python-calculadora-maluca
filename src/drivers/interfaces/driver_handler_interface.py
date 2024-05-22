@@ -8,6 +8,8 @@ class DriverHandlerInterface(ABC):
   @abstractmethod
   def variance(self, numbers: List[float]) -> float:
     pass
-  
+  @abstractmethod
+  def median(self, numbers: List[float]) -> float:
+    pass
     
 
